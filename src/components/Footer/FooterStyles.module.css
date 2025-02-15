@@ -1,0 +1,19 @@
+.container {
+  text-align: center;
+
+  p {
+    font-size: 16px;
+    color: var(--footer-text-color);
+  }
+}
+
+
+@media (width >= 800px) {
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+  }
+}
