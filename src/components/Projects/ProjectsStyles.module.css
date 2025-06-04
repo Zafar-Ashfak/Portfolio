@@ -2,9 +2,9 @@
   display: flex;
   flex-direction: column;
   text-align: center;
-
   img {
-    max-width: 250px;
+    max-width: 200px;
+    padding: 15px;
     align-self: center;
     background-color: var(--project-card-bg);
     border-radius: 20px;

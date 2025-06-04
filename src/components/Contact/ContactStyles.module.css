@@ -2,6 +2,7 @@
   text-align: center;
   display: flex;
   flex-direction: column;
+  margin-top: 150px;
 
   form {
     display: flex;
@@ -94,6 +95,7 @@ input[type="submit"]:active {
 }
 
 @media (width >= 800px) {
+
   textarea,
   input:not([type="submit"], [type ="reset"]) {
     width: 600px;
@@ -116,6 +118,9 @@ input[type="submit"]:active {
 
 
 @media (width >= 1350px) {
+  .container {
+    margin-top: 0px;
+  }
   textarea,
   input:not([type="submit"], [type ="reset"]) {
     width: 800px;

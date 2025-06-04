@@ -70,7 +70,7 @@ function Hero() {
         />
       </div>
       <div className={styles.info}>
-        <p className={styles.greet}>Hi, I am</p>
+        <p className={styles.name}>Hi, I am</p>
         <h1>Md Ashfak Alam</h1>
         <h2 className='wrap'>{text}</h2>
         <span>

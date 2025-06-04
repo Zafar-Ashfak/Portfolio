@@ -1,10 +1,9 @@
 import React from "react";
 import styles from "./ProjectsStyles.module.css";
-import viberr from "../../assets/viberr.png";
-import freshBurger from "../../assets/fresh-burger.png";
-import fitLift from "../../assets/fitlift.png";
-import tinDog from "../../assets/dog.png";
-import hipsster from "../../assets/hipsster.png";
+import easekart from "../../assets/easekart.png";
+import bookops from "../../assets/bookops.png";
+import dashboard from "../../assets/dashboard.png";
+import tindog from "../../assets/dog.png"
 
 import ProjectCard from "../../common/ProjectCard";
 function Projects() {
@@ -13,39 +12,33 @@ function Projects() {
       <h1 className="sectionTitle">Projects</h1>
       <div className={styles.projectsContainer}>
         <ProjectCard
-          src={viberr}
-          link="https://github.com/Zafar-Ashfak/Tin-Dog"
-          h3="Viberr"
-          p="Streaming App"
+          src={easekart}
+          link="https://github.com/Zafar-Ashfak/easekart"
+          h3="EaseKart"
+          p="A eCommerce App"
         />
 
         <ProjectCard
-          src={freshBurger}
-          link="https://github.com/Zafar-Ashfak/Tin-Dog"
-          h3="Burger Haven"
-          p="Hamburger Restaurant"
+          src={bookops}
+          link="https://github.com/Zafar-Ashfak/bookops"
+          h3="BookOps"
+          p="Book Store App"
         />
 
         <ProjectCard
-          src={fitLift}
-          link="https://github.com/Zafar-Ashfak/Tin-Dog"
-          h3="Sweat Sync"
-          p="Fitness App"
+          src={dashboard}
+          link="https://github.com/Zafar-Ashfak/admin-dashboard"
+          h3="Admin Dashboard"
+          p="Admin Dashboard App"
         />
 
         <ProjectCard
-          src={tinDog}
+          src={tindog}
           link="https://github.com/Zafar-Ashfak/Tin-Dog"
-          h3="Tin Dog"
-          p="Dog Nearby App"
+          h3="TinDog"
+          p="Dogs Nearby App"
         />
 
-        <ProjectCard
-          src={hipsster}
-          link="https://github.com/Zafar-Ashfak/Tin-Dog"
-          h3="Hipsster Glasses"
-          p="Glasses Shop"
-        />
       </div>
     </section>
   );

@@ -55,7 +55,7 @@
   }
 }
 
-.greet {
+.name {
   color: dodgerblue;
   font-weight: 400;
 }
@@ -89,14 +89,13 @@
     flex-direction: row-reverse;
     align-items: center;
     justify-content: space-evenly;
-    
     .hero {
       max-width: 350px;
       width: 350px;
     }
   }
 
-  .greet {
+  .name {
     margin-right: 190px;
   }
 }
@@ -109,7 +108,7 @@
     }
   }
 
-  .greet {
+  .name {
     margin-right: 260px;
   }
 }
